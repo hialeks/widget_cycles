@@ -42,7 +42,8 @@ class _HomeScreenState extends State<HomeScreen> {
               },
               style: const ButtonStyle(
                   backgroundColor: MaterialStatePropertyAll(Colors.orange)),
-              child: const Text("Trink noch ein Bier!"),
+              child: const Text("Trink noch ein Bier!",
+                  style: TextStyle(color: Colors.white70, fontSize: 17)),
             )
           ],
         ),
